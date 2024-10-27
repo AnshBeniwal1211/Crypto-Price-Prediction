@@ -1,0 +1,30 @@
+# ignore file or dir starting with underscore. Convention to avoid uploading big files.
+_*
+
+# vi swp
+*.swp
+
+# usual build dirs
+[Bb]uild
+[Rr]elease
+[Dd]ebug
+
+# cmake generated
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# vscode
+.vscode
+.vs
+
+# python
+.env
+.venv
+
